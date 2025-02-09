@@ -1,0 +1,176 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+h1,
+h3,
+p {
+  margin: 0;
+}
+
+.nav-links > ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav,
+.hero,
+.footer {
+  background-color: #1f2937;
+}
+
+.container-hero-text {
+  max-width: 400px;
+  gap: 12px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+  gap: 24px;
+}
+
+.information {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 48px 0px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background-color: #e5e7eb;
+  padding: 48px 0px;
+}
+
+.call-action {
+  display: flex;
+  background-color: #3882f6;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 50%;
+  margin: 48px 0px;
+  border-radius: 4px;
+  padding: 48px;
+  gap: 48px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.subtitle {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.subtitle-white {
+  font-size: 36px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.text-36 {
+  font-size: 36px;
+}
+
+.text-white {
+  color: #e5e7eb;
+}
+
+.quote {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.citation {
+  align-self: flex-end;
+}
+
+.btn {
+  background-color: #3882f6;
+  color: white;
+  border: transparent;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 12px;
+}
+
+.btn-2 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 12px;
+}
+
+.square {
+  height: 75px;
+  width: 75px;
+  border-radius: 8px;
+  border: 4px solid #3882f6;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+}
